@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [grunt-dev-update (v2.2.0)](https://github.com/pgilad/grunt-dev-update#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-dev-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-dev-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-dev-update.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-dev-update)",
+    "description": "#### basic test coverage for  [grunt-dev-update (v2.2.0)](https://github.com/pgilad/grunt-dev-update#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-dev-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-dev-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-dev-update.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-dev-update)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "grunt-dev-update": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }

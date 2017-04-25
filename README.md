@@ -1,6 +1,6 @@
 # npmtest-grunt-dev-update
 
-#### test coverage for  [grunt-dev-update (v2.2.0)](https://github.com/pgilad/grunt-dev-update#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-dev-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-dev-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-dev-update.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-dev-update)
+#### basic test coverage for  [grunt-dev-update (v2.2.0)](https://github.com/pgilad/grunt-dev-update#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-dev-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-dev-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-dev-update.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-dev-update)
 
 #### Automate the updating of your package.json packages with a grunt task
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-dev-update/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-dev-update/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-dev-update/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-dev-update/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-dev-update/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-dev-update/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-dev-update/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
